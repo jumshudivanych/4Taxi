@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">4Taxi</string>
+
+    <string name="opteum_text1">
+        Оптеум: Водитель</string>
+
+    <string name="voiti_v_slugbu">
+        ВОЙТИ В СЛУЖБУ</string>
+
+    <string name="taxometr">
+        ТАКСОМЕТР
+    </string>
+
+    <string name="moi_zakazy">
+        МОИ ЗАКАЗЫ
+    </string>
+
+    <string name="taxiClient_text2">
+        TaxiClientA</string>
+    <string name="plugins">com.com.sandbox50572.a4taxi.plugin.PLUGIN_APPLICATION</string>">
+
+</resources>

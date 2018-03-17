@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.sandbox50572.a4taxi.MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+       <WebView
+               android:id="@+id/webView1"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+       </WebView>
+
+       <View
+               android:background="#000"
+               android:layout_width="3dp"
+               android:layout_height="match_parent"/>
+
+       <WebView
+               android:id="@+id/webView2"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+       </WebView>
+
+   </LinearLayout>
+
+    <View
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                    android:id="@+id/myButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="ВОИТИ" />
+
+            <TextView
+                    android:id="@+id/opteum_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opteum_text1"/>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageButton
+                        android:id="@+id/voiti_v_slugbu"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+
+                        android:contentDescription="@string/voiti_v_slugbu"
+                        android:src="@drawable/ic_drawer_taxi" />
+
+                <ImageButton
+                        android:id="@+id/taxometr"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/taxometr"
+
+                        android:src="@drawable/ic_drawer_taximeter" />
+
+                <ImageButton
+                        android:id="@+id/moi_zakazy"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/moi_zakazy"
+
+                        android:src="@drawable/ic_drawer_history" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <View
+                android:background="#000"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <Button
+                    android:id="@+id/myButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="ВОИТИ" />
+
+            <TextView
+                    android:id="@+id/taxiClient_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taxiClient_text2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
